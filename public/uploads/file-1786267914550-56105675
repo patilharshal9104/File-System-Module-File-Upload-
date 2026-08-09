@@ -1,0 +1,508 @@
+# MASTER PROMPT
+
+You are an expert Senior Full Stack Engineer, UI/UX Designer, Product Designer, Frontend Architect, Backend Architect, SEO Specialist, Accessibility Expert, Performance Engineer, Motion Designer, and Deployment Engineer.
+
+(Most Important is portfolio website is of style gaming + professional style so add unique animation simple ones or styleing like that okey and website must be faster )
+
+
+Your task is to build a **complete, production-ready, modern portfolio website** for me.
+
+Do not create placeholders unless absolutely necessary. Use the information below exactly. If a small piece of information is missing (such as a profile image), gracefully design around it and leave only those assets easy to replace.
+
+The final output should be a fully deployable production application.
+
+---
+
+# Developer Information
+
+## Name
+
+Harshal Shailesh Patil
+
+## Professional Title
+
+Full Stack AI Engineer
+
+## Email
+
+[hspatil000@gmail.com](mailto:hspatil000@gmail.com)
+
+## GitHub
+
+https://github.com/patilharshal9104
+
+## LinkedIn
+
+https://www.linkedin.com/in/harshal-patil-230ab5316/
+
+---
+
+# Personal Brand
+
+Build a portfolio that feels like it belongs to someone who is deeply interested in
+
+* Full Stack Development
+* AI Engineering
+* Agentic AI
+* Production Systems
+* Distributed Systems
+* Modern Web Development
+* Scalable Applications
+
+The personality should communicate:
+
+* Curious
+* Builder
+* Problem Solver
+* Always Learning
+* Product Focused
+* Engineering Mindset
+* Clean Code
+* Modern Architecture
+
+Avoid generic portfolio designs.
+
+This portfolio should feel premium and memorable.
+
+---
+
+# Design Style
+
+Create a premium modern portfolio with
+
+* Dark Theme
+* Glassmorphism
+* Modern Gradients
+* Elegant Typography
+* Smooth Animations
+* Professional Color Palette
+* Premium Cards
+* Excellent White Space
+* Beautiful Hero Section
+
+Inspiration:
+
+* Apple
+* Linear
+* Vercel
+* Stripe
+* Raycast
+* Framer
+* OpenAI
+
+Do NOT copy them.
+
+Create an original design.
+
+---
+
+# Animations
+
+Use Framer Motion extensively.
+
+Include
+
+* Smooth page transitions
+* Scroll reveal animations
+* Hero animations
+* Floating UI elements
+* Mouse interactions
+* Button hover effects
+* Animated skill cards
+* Project card animations
+* Timeline animations
+* Loading animation
+* Smooth scrolling
+* Section transitions
+
+Animations should feel premium and never distracting.
+
+---
+
+# Tech Stack
+
+Use
+
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* React Router (if needed)
+* Lucide Icons
+* Responsive Design
+
+Structure the project professionally.
+
+---
+
+# Performance
+
+Portfolio must
+
+* Load extremely fast
+* Be fully responsive
+* Be SEO optimized
+* Follow accessibility best practices
+* Have excellent Lighthouse scores
+* Lazy load assets
+* Optimize animations
+
+---
+
+# Sections
+
+Build these sections.
+
+---
+
+## Hero
+
+Large introduction.
+
+Display
+
+Harshal Shailesh Patil
+
+Full Stack AI Engineer
+
+Short introduction about building scalable web applications and AI-powered products.
+
+Primary CTA
+
+* View Projects
+
+Secondary CTA
+
+* Contact Me
+
+Background should have subtle animated gradients or AI-inspired visuals.
+
+---
+
+## About
+
+Write a professional About section using the information below.
+
+Education
+
+Diploma
+
+KKWAGH Polytechnic Nashik
+
+Information Technology
+
+75%
+
+Bachelor of Engineering
+
+MGM College of Engineering, Kamothe
+
+Computer Engineering
+
+CGPA
+
+8.23
+
+Also mention
+
+Passionate about building real-world products using Full Stack Development and AI.
+
+Focused on learning modern architectures, distributed systems, and production-ready engineering practices.
+
+---
+
+## Skills
+
+Organize beautifully.
+
+### Languages
+
+* JavaScript
+* TypeScript
+* Python
+* C++
+
+### Frontend
+
+* HTML
+* CSS
+* Tailwind CSS
+* React
+
+### Backend
+
+* Node.js
+* Express.js
+* REST APIs
+* JWT
+* Docker
+* Kubernetes
+* Redis
+* WebSockets
+
+### Databases
+
+* MongoDB
+* PostgreSQL
+* MySQL
+* Redis
+* Firebase
+
+### AI / ML (Learning)
+
+* LangChain
+* RAG
+* Agentic AI
+* Vector Databases
+* MCP Servers
+
+### Cloud
+
+* AWS
+* Docker
+* Kubernetes
+* Vercel
+
+### Other
+
+* Git
+* Operating Systems
+* DBMS
+
+Display every skill attractively.
+
+---
+
+## Projects
+
+Create detailed project pages.
+
+Each project should include
+
+* Overview
+* Features
+* Tech Stack
+* Challenges
+* Architecture
+* Screenshots placeholder
+* Live Demo
+* GitHub button
+* Responsive layout
+
+---
+
+### Project 1
+
+Interview Agent
+
+Description
+
+An AI-powered interview preparation platform where users upload their resume, receive AI-generated interview questions, practice both technical and HR rounds, get intelligent feedback, and purchase credits for extended usage.
+
+Features
+
+* Resume PDF Upload
+* AI Generated Questions
+* Technical Interview
+* HR Interview
+* AI Feedback
+* Razorpay Credits
+* Firebase Authentication
+* Framer Motion UI
+* Render Deployment
+
+Tech Stack
+
+* React
+* Node.js
+* Express
+* MongoDB
+* Firebase Authentication
+* Razorpay
+* Framer Motion
+* Render
+
+Live Demo
+
+https://interview-ai-full-stack-mjwl.onrender.com
+
+---
+
+### Project 2
+
+Production Multi-Agent AI Platform
+
+Description
+
+A scalable, production-ready MERN application implementing a multi-agent AI system using modern LLM orchestration.
+
+Features
+
+* Multi-Agent AI
+* LangGraph
+* LangChain
+* RAG
+* Qdrant
+* Redis
+* JWT Authentication
+* Redux Toolkit
+* REST APIs
+* File Upload
+* Tool Calling
+* Streaming AI
+* Docker
+* AWS Deployment
+* Microservices Architecture
+* Production Folder Structure
+
+Explain why each technology was chosen and show a clean architecture diagram using SVG or CSS.
+
+---
+
+## Experience
+
+Mention honestly.
+
+Professional Experience
+
+Currently focused on intensive self-learning through building production-grade applications.
+
+Actively developing real-world Full Stack AI applications.
+
+Learning scalable backend architectures.
+
+Working toward open-source contributions.
+
+Continuously improving problem-solving and software engineering skills.
+
+Frame this positively without pretending to have internship experience.
+
+---
+
+## Education Timeline
+
+Beautiful animated timeline.
+
+---
+
+## Future Goals
+
+Display beautifully.
+
+* Complete the Production Multi-Agent AI Platform
+* Contribute to Open Source
+* Solve 100+ LeetCode Problems
+* Launch at least one SaaS product
+* Acquire real users
+* Become an excellent Full Stack AI Engineer
+
+---
+
+## Contact
+
+Email
+
+GitHub
+
+LinkedIn
+
+Beautiful contact form.
+
+Include copy-to-clipboard.
+
+---
+
+## Footer
+
+Elegant.
+
+Include social links.
+
+---
+
+# Additional Features
+
+Include
+
+Dark Theme
+
+Responsive Design
+
+SEO
+
+Open Graph Meta Tags
+
+Twitter Cards
+
+robots.txt
+
+sitemap.xml
+
+Custom favicon
+
+404 page
+
+Animated cursor (subtle)
+
+Back to Top Button
+
+Sticky Navbar
+
+Smooth scrolling
+
+Animated section highlighting
+
+Project filtering
+
+Scroll progress indicator
+
+Command Palette (Ctrl + K)
+
+Theme toggle (light/dark)
+
+Keyboard accessibility
+
+Reduced-motion support
+
+---
+
+# Code Quality
+
+Use
+
+* Clean Architecture
+* Reusable Components
+* Modular Structure
+* TypeScript Best Practices
+* Proper Folder Organization
+* Consistent Naming
+* Strong Typing
+* Error Boundaries
+* Custom Hooks
+* Performance Optimizations
+
+---
+
+# Deployment
+
+Prepare the project for deployment on Vercel.
+
+Include
+
+* README.md
+* Installation guide
+* Environment variable documentation
+* Deployment instructions
+* Folder structure explanation
+
+---
+
+# Final Deliverable
+
+Deliver a portfolio that looks like it was built by a top-tier engineer applying to elite AI startups. It should feel polished, unique, fast, visually striking, technically impressive, and production-ready.
+
+Do not generate mockups or partial implementations. Generate the complete source code for the portfolio, ensuring every section is implemented, responsive, accessible, and deployable.
+
+
+
+
