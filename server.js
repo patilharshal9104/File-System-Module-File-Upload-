@@ -28,12 +28,47 @@ const storage = multer.diskStorage({
 //     res.send("File uplaoded succesffully");
 // })
 
-const upload = multer({storage});
+const upload = multer({storage, limits:{
+    fileSize: 1024 * 1024
 
-app.post("/home",upload.array("file"), (req,res)=>{
+}});
+
+// app.post("/home",upload.array("file"), (req,res)=>{
+//     console.log(req.files);
+//     res.send("File uplaoded succesffully");
+// })
+ 
+
+//for multiple fields to upload like prevoiusly our fieldname is same files now if we wanted multiple ones we use fields methods instead of array.\
+
+
+app.post("/upload", upload.fields([
+    {name: "avatar", maxCount:1},
+    {name: "Resume", maxCount: 1}
+]), (req, res)=>{
     console.log(req.files);
-    res.send("File uplaoded succesffully");
+    res.send("Done");
 })
+
+
+
+
+//file handling -: if limits exceed then we throw error and return directly so no uplodation done -:
+//we used middleware inside middleware for this_:
+
+
+app.post("/upload", (req,res)=>{
+    upload.single("file")(req, res, (err)=>{
+        if(err.code === "LIMIT_FILE_SIZE"){
+            return res.send("File too large")
+        }
+        res.send("Upload");
+    })
+})
+
+
+
+
 
 app.listen(3000, () => {
     console.log(`Server started on port 3000`);
