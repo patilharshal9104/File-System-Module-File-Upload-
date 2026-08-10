@@ -31,7 +31,17 @@ const storage = multer.diskStorage({
 const upload = multer({storage, limits:{
     fileSize: 1024 * 1024
 
-}});
+},
+fileFilter:(req, file, cb)=>{
+    const allowed = ["image/png" , "image/jpeg" , "application/pdf"]
+    if(allowed.includes(file.mimetype)){
+        cb(null, true)
+    }
+    else{
+        cb(new Error("File type not supported"), false)
+    }
+}
+});
 
 // app.post("/home",upload.array("file"), (req,res)=>{
 //     console.log(req.files);
@@ -57,14 +67,16 @@ app.post("/upload", upload.fields([
 //we used middleware inside middleware for this_:
 
 
-app.post("/upload", (req,res)=>{
-    upload.single("file")(req, res, (err)=>{
-        if(err.code === "LIMIT_FILE_SIZE"){
-            return res.send("File too large")
-        }
-        res.send("Upload");
-    })
-})
+// app.post("/upload", (req,res)=>{
+//     upload.single("file")(req, res, (err)=>{
+//         if(err.code === "LIMIT_FILE_SIZE"){
+//             return res.send("File too large")
+//         }
+//         res.send("Upload");
+//     })
+// })
+
+
 
 
 
